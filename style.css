@@ -1,0 +1,18 @@
+/* Default styles */
+body {
+    font-size: 16px;
+}
+
+/* Styles for screens 600px and narrower */
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+/* Styles for screens 480px and narrower */
+@media (max-width: 480px) {
+    body {
+        font-size: 12px;
+    }
+}
